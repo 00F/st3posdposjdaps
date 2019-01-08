@@ -6,7 +6,7 @@ const developers = ['490474566154715146'];
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setGame(`-`,'https://www.twitch.tv/MeeRcY')
-  client.user.setStatus("idle")
+  client.user.setStatus("dnd")
 });
 
 client.on('message', message => {
